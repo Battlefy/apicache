@@ -1,0 +1,60 @@
+{
+  "maximumLineLength": 80,
+  "validateIndentation": 2,
+  "validateQuoteMarks": "'",
+  "requireSpaceAfterKeywords": [
+    "if",
+    "else",
+    "for",
+    "while",
+    "do",
+    "switch",
+    "return",
+    "try",
+    "catch"
+  ],
+  "requireCurlyBraces": [
+    "if",
+    "else",
+    "for",
+    "while",
+    "do",
+    "try",
+    "catch",
+    "case",
+    "default"
+  ],
+  "requireSpacesInFunctionExpression": {
+    "beforeOpeningCurlyBrace": true
+  },
+  "disallowSpacesInFunctionExpression": {
+    "beforeOpeningRoundBrace": true
+  },
+  "requireSpacesInsideObjectBrackets": "allButNested",
+  "requireSpacesInsideArrayBrackets": "allButNested",
+  "disallowQuotedKeysInObjects": true,
+  "requireOperatorBeforeLineBreak": true,
+  "requireSpaceBeforeBinaryOperators": [
+    "=",
+    "+",
+    "-",
+    "/",
+    "*",
+    "==",
+    "===",
+    "!=",
+    "!=="
+  ],
+  "requireSpaceAfterBinaryOperators": true,
+  "requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties",
+  "disallowMixedSpacesAndTabs": true,
+  "disallowTrailingWhitespace": true,
+  "disallowTrailingComma": true,
+  "disallowKeywordsOnNewLine": [ "else" ],
+  "requireLineFeedAtFileEnd": true,
+  "requireCapitalizedConstructors": true,
+  "requireSpaceAfterLineComment": true,
+  "requireSpacesInConditionalExpression": true,
+  "disallowMultipleVarDecl": true,
+  "disallowEmptyBlocks": true
+}
